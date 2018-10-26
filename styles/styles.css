@@ -1,9 +1,16 @@
-.cats {
-    max-width: 500px;
-  }
-  footer {
-      background-color: gray;
-  }
-  h1 {
-      font-size: 3rem;
-  }
+article
+{
+    float: left;
+    width: auto;
+    font-size: 11rem%;
+    font-family: algerian, courier;
+    line-height: 50%;
+}
+footer
+{ clear: left;
+  margin-top: 5rem
+}
+border-box {
+  height: 20rem;
+  overflow: visible;
+}
