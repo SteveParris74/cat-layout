@@ -20,35 +20,14 @@ footer {
 background-color: gray;
 }
 header {
-background-color: silver;
+background-color: teal;
 color: white;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
+.topnav a {
     float: left;
-}
-
-li a {
-    display: block;
-    color: white;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
