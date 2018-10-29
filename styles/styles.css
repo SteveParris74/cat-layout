@@ -1,16 +1,54 @@
-article
-{
+.container {
+margin: 0 auto;
+max-width: 1000px;
+padding: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+.clearix::after {
+  content: "";
+  display: block;
+  clear:both;
+}
+h1 {
+  font-size:3em
+}
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+}
+footer {
+background-color: gray;
+}
+header {
+background-color: silver;
+color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
     float: left;
-    width: auto;
-    font-size: 11rem%;
-    font-family: algerian, courier;
-    line-height: 50%;
 }
-footer
-{ clear: left;
-  margin-top: 5rem
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-border-box {
-  height: 20rem;
-  overflow: visible;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
