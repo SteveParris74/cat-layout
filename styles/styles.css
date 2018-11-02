@@ -31,7 +31,7 @@ h5 {
   color: teal
 }
 footer {
-  align-items: center;
+  justify-content: center;
   background-color: gray;
 }
 header {
