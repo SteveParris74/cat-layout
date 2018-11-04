@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  background-color: gray;
+  overflow: auto;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+  overflow: auto;
+  /* border: 2px solid purple; */
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+main .wrapper {
+ overflow: auto;
+}
+nav {
+  overflow: auto;
+  /* background-color: orange */
+}
+
+nav li {
+  float: left;
+  margin: 0;
+  padding: .5rem 1rem .5rem 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  /* border: 2px solid red; */
+  float: left;
+}
+.main-article {
+  width: 70%;
+}
+.side-bar-article {
+  width: 30%;
+}
+header {
+  background-color: silver;
+}
+footer {
+  background-color: lightblue;
+  clear: both;
+}
