@@ -5,25 +5,27 @@
     <title>Test</title>
     <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    
+
     <style> .flex-container {
-       height: 80rem;
+       height: 26rem;
+       background-color: gray;
        display: flex;
-       /* flex-direction: column; */
+       flex-direction: column;
        border: 2px dotted grey;
        flex-direction: column;
-       justify-content: flex-end;
-       /* align-items: center; */
+       justify-content: flex-start;
+       align-items: center;
        /* flex-wrap: wrap-reverse; */
     }
   .flex-container div {
      color: white;
-     padding: 1rem;
+     padding: .1rem;
      /* width: 50px;
      height: 50px; */
-     font-size: 4rem;
+     font-size: 1.4rem;
+     font-family: 'Poor Story', cursive;
   }
-.blue {background-color: blue;
+/* .blue {background-color: blue;
 font-weight: normal;
 font-style: oblique;
 font-family: 'Poor Story', cursive;
@@ -34,20 +36,24 @@ font-family: 'Poor Story', cursive;
 .gray {background-color: gray}
 .purple {background-color: purple}
 .yellow {background-color: yellow}
-.lightblue {background-color: lightblue}
+.lightblue {background-color: lightblue} */
   }
     </style>
   </head>
   <body>
     <div class="flex-container">
-      <div class="blue">Wow<i class="fas fa-terminal"></i></div>
-      <div class="red">2</div>
-      <div class="orange">3</div>
-      <div class="green">4</div>
-      <div class="gray">5</div>
-      <div class="purple">6</div>
-      <div class="yellow">7</div>
-      <div class="lightblue">8</div>
-    </div>
+      <div><img src="images/cat-logo.png" alt="Kitty Logo"></div>
+      <div><p> Sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris.</p></div>
+      <div>
+        <ul>
+          <li><a href="#">Footer link 1</a></li>
+          <li><a href="#">Footer link 2</a></li>
+          <li><a href="#">Footer link 3</a></li>
+          <li><a href="#">Footer link 4</a></li>
+        </ul>
+      </div>
+      <div><p>© 2018 Kitties To Go! LLC | Seattle WA</p></div>
   </body>
 </html>
