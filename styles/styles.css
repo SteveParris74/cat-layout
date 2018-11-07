@@ -73,6 +73,7 @@ nav ul {
 .sidebar {
   float: right;
   padding: 1rem;
+  height: 42rem;
 }
 .flex-container {
    height: 26rem;
